@@ -344,6 +344,20 @@ var header1_item1 = {
 	expression: "optional"
 };
 
+var header1_item2 = {
+	ref: "props.section1.item2",
+	label: "Section 1 / Item 2",
+	type: "string",
+	expression: "optional"
+};
+
+var header2_item2 = {
+	ref: "props.section2.item2",
+	label: "Section 2 / Item 1",
+	type: "string",
+	expression: "optional"
+};
+
 ...
 ...
 
@@ -373,7 +387,8 @@ var myCustomSection = {
 		}
 
 	}
-}
+};
+
 ```
 The key in the code above is that you add the component `expandable-items` the rest of the code works as all the other examples.
 
